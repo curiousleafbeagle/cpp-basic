@@ -8,3 +8,4 @@ int main()
 	std::string text = "My current age is ";
 	cout<<text<<age;
 	return 0;
+}
