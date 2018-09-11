@@ -1,16 +1,17 @@
 // Type Deduction: Auto and Dcltype
 
 #include <iostream>
+#include <functional>
 using namespace std;
 
 int main ()
 {
 int foo = 0;
-auto bar = foo; // the same as: int bar = foo;
+decltype(foo) bar = foo;
 cout << bar;
 
 return 0;
 }
 
 //not yet completed
-//
+
