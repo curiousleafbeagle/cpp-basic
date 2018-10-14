@@ -1,5 +1,5 @@
 // initialization of variables
-
+#include <stdio.h>
 #include <iostream>
 using namespace std;
 
